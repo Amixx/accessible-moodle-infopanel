@@ -1,0 +1,139 @@
+:root {
+    --brand-blue: #1C5085;
+    --default-border-radius: 6px;
+}
+
+.navbar.fixed-top #usernavigation .nav-link,
+.page-header .usermenu #user-menu-toggle {
+    border-radius: var(--default-border-radius) !important;
+    border: 1px solid transparent;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#page-footer .social-media-list a {
+    border: 1px solid transparent;
+}
+
+.page-header .boost-navbar .simplesearchform .btn-open:hover .icon:focus {
+    color: #fff;
+}
+
+.page-header .social-media-list a:focus,
+.navbar.fixed-top #usernavigation .nav-link:focus,
+.page-header .usermenu #user-menu-toggle:focus,
+#page-footer .social-media-list a:focus {
+    border: 1px solid white !important;
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.branding .site-name.has-logo {
+    border: 1px solid transparent;
+    border-radius: var(--default-border-radius);
+    height: fit-content;
+    padding-left: 2px;
+}
+
+.branding .site-logo {
+    margin-right: 0;
+}
+
+.branding .site-name.has-logo:focus {
+    border-color: var(--brand-blue);
+}
+
+.custom-switch .custom-control-input:focus + .custom-control-label::before {
+    outline: 2px solid white;
+    border-color: transparent;
+}
+
+.branding .moremenu-wrapper .moremenu .nav-link {
+    border-radius: var(--default-border-radius);
+    border: 1px solid transparent !important;
+}
+
+.branding .moremenu-wrapper .moremenu .nav-link:focus {
+    border: 1px solid var(--brand-blue) !important;
+}
+
+.drawer-toggles .drawer-toggler .btn:focus {
+    outline: 1px solid var(--brand-blue);
+}
+
+.pagination .page-item .page-link:focus {
+    outline: 1px solid var(--brand-blue);
+}
+
+.dashboard-card a.coursename {
+    border: 1px solid transparent;
+    padding: 1px 4px;
+    border-radius: var(--default-border-radius);
+}
+
+.dashboard-card a.coursename:focus {
+    border: 1px solid var(--brand-blue);
+}
+
+.btn.btn-outline-secondary:focus {
+    background: #353e4e;
+    border-color: #353e4e;
+    color: white;
+}
+
+.btn:not(:disabled):not(.disabled):focus {
+    background:white;
+    color: var(--brand-blue);
+    border-color: var(--brand-blue);
+}
+
+.calendar-controls a:focus {
+    outline: 1px solid var(--brand-blue);
+    color: var(--brand-blue);
+    border-radius: var(--default-border-radius);
+}
+
+.maincalendar .calendarmonth td a.day:focus {
+    box-shadow: 0 0 0 1px var(--brand-blue);
+}
+
+.maincalendar .calendarmonth ul li > a {
+    border-radius: var(--default-border-radius);
+    border: 1px solid transparent;
+    padding: 1px 2px;
+}
+
+.maincalendar .calendarmonth ul li > a:focus {
+    border: 1px solid var(--brand-blue);
+}
+
+.footer-link a {
+    border-radius: var(--default-border-radius);
+    border: 1px solid transparent;
+    padding: 1px 2px;
+}
+
+.footer-link a:focus {
+    border: 1px solid var(--brand-blue);
+    color: var(--brand-blue);
+}
+
+#page-footer .footer-block a {
+    border-radius: var(--default-border-radius);
+    border: 1px solid transparent;
+    padding: 2px 4px;
+}
+
+#page-footer .footer-block a:focus {
+    border: 1px solid white;
+}
+
+#page-footer a {
+    border-radius: var(--default-border-radius);
+    border: 1px solid transparent;
+    padding: 1px 2px;
+}
+
+#page-footer a:focus {
+    border: 1px solid white;
+}
