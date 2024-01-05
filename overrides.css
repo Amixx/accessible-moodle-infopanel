@@ -81,8 +81,8 @@
     color: white;
 }
 
-.btn:not(:disabled):not(.disabled):focus {
-    background:white;
+.maincalendar .btn:not(:disabled):not(.disabled):focus {
+    background: white;
     color: var(--brand-blue);
     border-color: var(--brand-blue);
 }
@@ -136,4 +136,9 @@
 
 #page-footer a:focus {
     border: 1px solid white;
+}
+
+.custom-select:focus {
+    border-color: var(--brand-blue);
+    box-shadow: none;
 }
